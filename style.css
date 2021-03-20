@@ -1,0 +1,32 @@
+body {
+    border: solid blue;
+    background-color: #CCCCCC;
+    position: absolute;
+}
+
+#banner {
+    height: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin: 40px;
+    height: 40px;
+    border: solid green;
+    text-align: center; 
+    background-color: #CCCCCC;
+}
+
+p {
+    text-align: center;
+    border: solid red;
+    padding: 10px;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
