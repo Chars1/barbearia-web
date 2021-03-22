@@ -6,13 +6,19 @@ header {
 .caixa {
     border: solid green;
     position: relative;
-    width: 940px;
+    width: 80%;
+    height: 100px;
     margin: 0 auto;
+}
+
+.caixa h1 img {
+    height: 110px;
+    width: 90px;
 }
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 40%;
     right: 0;
 
 }
@@ -28,4 +34,72 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(190, 190, 100);
+    text-decoration:underline;
+    background-color: black;
+}
+
+.produtos {
+    width: 80%;
+    margin: 0 auto;
+    border: solid blue;
+    padding: 50px 0;
+}
+
+
+
+.produtos li {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    height: 80%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: blue;
+}
+
+.produtos li:active{
+    border-color: aqua;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-desc{
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("/img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
 }
